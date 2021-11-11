@@ -8,6 +8,8 @@ Plug 'prettier/vim-prettier'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'plasticboy/vim-markdown'
 Plug 'ntk148v/vim-horizon'
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 
 colorscheme horizon 
