@@ -21,4 +21,15 @@ inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
+inoremap kj <ESC>
+
 set scrolloff=8
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+lua <<EOF
+require'lspconfig'.ccls.setup{}
+EOF
+
