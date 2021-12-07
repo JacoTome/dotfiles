@@ -340,7 +340,7 @@ alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
 alias xd="ls /usr/share/xsessions"
 
 #cd in home directory
-alias cdh="cd $HOME"
+alias cdh="cd ~"
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
